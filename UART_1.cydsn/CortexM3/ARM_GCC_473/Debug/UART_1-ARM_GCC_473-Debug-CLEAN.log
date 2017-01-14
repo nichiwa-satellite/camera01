@@ -1,0 +1,6 @@
+--------------- Clean Started: 12/21/2014 14:20:09 Project: UART_1, Configuration: ARM GCC 4.7.3 Debug ---------------
+Deleting file ".\UART_1.cycdx"
+Deleting file ".\UART_1.svd"
+Deleting file ".\UART_1.rpt"
+Deleting file ".\UART_1_timing.html"
+--------------- Clean Succeeded: 12/21/2014 14:20:10 ---------------

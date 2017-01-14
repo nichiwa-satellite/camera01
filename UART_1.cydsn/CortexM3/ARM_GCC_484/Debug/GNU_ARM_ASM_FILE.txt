@@ -1,0 +1,1 @@
+'D:\PSoC\Psoc_program\camera01\UART_1.cydsn\Generated_Source\PSoC5\CyBootAsmGnu.s' -o .o -T GNU_ARM_ASM_FILE -I 'D:\PSoC\Psoc_program\camera01\UART_1.cydsn' -I 'D:\PSoC\Psoc_program\camera01\UART_1.cydsn\Generated_Source\PSoC5' -f 'D:\PSoC\Psoc_program\camera01\UART_1.cydsn\CortexM3\ARM_GCC_484\Debug\.deps\GNU_ARM_ASM_FILE.d'

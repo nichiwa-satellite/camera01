@@ -1,0 +1,32 @@
+--------------- Build Started: 01/14/2017 21:02:10 Project: UART_1, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects -c main.c -o .\CortexM3\ARM_GCC_493\Debug\main.o
+main.c: In function 'main':
+main.c:22:10: warning: unused variable 'recv' [-Wunused-variable]
+     char recv;
+          ^
+main.c:21:10: warning: unused variable 'snd' [-Wunused-variable]
+     char snd[64];
+          ^
+main.c:20:10: warning: unused variable 'log' [-Wunused-variable]
+     char log[] = "TXDA 0000\r\n";
+          ^
+main.c: At top level:
+main.c:84:0: warning: ignoring #pragma interrupt_handler isr_rx1 [-Wunknown-pragmas]
+ #pragma interrupt_handler isr_rx1
+ ^
+main.c: In function 'isr_rx1':
+main.c:88:7: warning: unused variable 'rec' [-Wunused-variable]
+  char rec[20] = {0};
+       ^
+main.c:87:7: warning: unused variable 'recv_data' [-Wunused-variable]
+  char recv_data;
+       ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_493\Debug\UART_1.a .\CortexM3\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_493\Debug\UART_1.o .\CortexM3\ARM_GCC_493\Debug\UART_1_PM.o .\CortexM3\ARM_GCC_493\Debug\UART_1_INT.o .\CortexM3\ARM_GCC_493\Debug\UART_1_BOOT.o .\CortexM3\ARM_GCC_493\Debug\UART_1_IntClock.o .\CortexM3\ARM_GCC_493\Debug\CyDmac.o .\CortexM3\ARM_GCC_493\Debug\CyFlash.o .\CortexM3\ARM_GCC_493\Debug\CyLib.o .\CortexM3\ARM_GCC_493\Debug\cyPm.o .\CortexM3\ARM_GCC_493\Debug\CySpc.o .\CortexM3\ARM_GCC_493\Debug\cyutils.o .\CortexM3\ARM_GCC_493\Debug\UART_2.o .\CortexM3\ARM_GCC_493\Debug\UART_2_PM.o .\CortexM3\ARM_GCC_493\Debug\UART_2_INT.o .\CortexM3\ARM_GCC_493\Debug\UART_2_BOOT.o .\CortexM3\ARM_GCC_493\Debug\UART_2_IntClock.o .\CortexM3\ARM_GCC_493\Debug\isr_tx1.o .\CortexM3\ARM_GCC_493\Debug\isr_tx2.o .\CortexM3\ARM_GCC_493\Debug\isr_rx1.o .\CortexM3\ARM_GCC_493\Debug\isr_rx2.o .\CortexM3\ARM_GCC_493\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_493\Debug\UART_1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM3\ARM_GCC_493\Debug\UART_1.elf .\CortexM3\ARM_GCC_493\Debug\main.o .\CortexM3\ARM_GCC_493\Debug\cymetadata.o .\CortexM3\ARM_GCC_493\Debug\Cm3Start.o .\CortexM3\ARM_GCC_493\Debug\UART_1.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_493\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -g -ffunction-sections -O0 -ffat-lto-objects -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_493\Debug/UART_1.map -T "C:\Users\localadmin\Downloads\kam\PSoC program\camera01\UART_1.cydsn\Generated_Source\PSoC5\cm3gcc.ld" -specs=nano.specs -Wl,--gc-sections -Wl,--end-group
+cyelftool.exe -C "C:\Users\localadmin\Downloads\kam\PSoC program\camera01\UART_1.cydsn\CortexM3\ARM_GCC_493\Debug\UART_1.elf" --flash_row_size 256 --flash_size 262144
+cyelftool.exe -S "C:\Users\localadmin\Downloads\kam\PSoC program\camera01\UART_1.cydsn\CortexM3\ARM_GCC_493\Debug\UART_1.elf"
+Flash used: 2982 of 262144 bytes (1.1%).
+SRAM used: 20853 of 65536 bytes (31.8%). Stack: 16384 bytes. Heap: 4096 bytes.
+--------------- Build Succeeded: 01/14/2017 21:02:11 ---------------

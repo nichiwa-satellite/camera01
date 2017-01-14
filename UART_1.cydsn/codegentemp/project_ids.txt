@@ -1,0 +1,6 @@
+C:\Users\localadmin\Downloads\kam\PSoC program\camera01\UART_1.cydsn\UART_1.cyprj|762890fd-cfe3-4937-9247-8a44d6c683f7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b1e429c1-6029-4d93-92ff-4a4e76560d98
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|7a6bcf09-6e98-46e6-a3e9-12c3cbfc6068
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|899fdadf-e6f5-4b48-add3-562feaf66d7e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|a010f26f-7c93-47f7-a73f-035fcb8bddd6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|e672a554-70c2-47b5-a018-8a73d0baf601
